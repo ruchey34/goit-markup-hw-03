@@ -1,0 +1,211 @@
+:root {
+    --main-text-color:#757575;
+    --header-color:#212121;
+    --header-bg-color: #FFFFFF;
+    --animation-color: #2196F3;
+    --logo-color: #000000;
+    --team-bg-color: #F5F4FA;
+    --animation-button: #188CE8;
+    --footer-bg-color: #2F303A;
+}
+body {
+    color: var(--main-text-color);
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.logo {
+    color:var(--logo-color);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+}
+.logo-reverse{
+    color: var(--header-bg-color);
+}
+.logo-beginning {
+    color: var(--animation-color);
+}
+.header-link {
+    color: var(--header-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+}
+.header-link:hover {
+    color: var(--animation-color);
+}
+.link-active{
+    color: var(--animation-color);
+}
+.address-link{
+    color: var(--main-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 0.02em;
+}
+.address-link:hover{
+    color: var(--animation-color);
+}
+.hero{
+    background-color: var(--footer-bg-color);
+}
+.hero-text{
+    color: var(--header-bg-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.hero-btn{
+    background-color: var(--animation-color);
+    color: var(--header-bg-color);
+
+    cursor: pointer;
+
+    position: relative;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
+    display: flex;
+    align-items: center;
+}
+.hero-btn:hover{
+   background-color: var(--animation-button);
+}
+.benefits-header{
+    color: var(--header-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.benefits-item{
+    width: 270px;
+}
+.benefits-text{
+    color: var(--main-text-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.activities-header{
+    color: var(--header-color);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.team{
+    background-color: var(--team-bg-color);
+}
+.team-container{
+    background-color: var(--header-bg-color);
+    position: relative;
+    width: 270px;
+    height: 368px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.team-header{
+    color: var(--header-color);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.team-name{
+    color: var(--header-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.team-paragraph{
+    color: var(--main-text-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.footer{
+    background-color: var(--footer-bg-color);
+}
+.footer-paragraph{
+    color: var(--header-bg-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.address-item{
+    color: var(--main-text-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.portfolio-btn{
+    color: var(--header-color);
+    background-color: var(--team-bg-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    position: relative;
+    cursor: pointer;
+}
+.portfolio-btn:hover{
+    background-color: var(--animation-button);
+    color: var(--header-bg-color);
+}
+.btn-active{
+    background-color: var(--animation-button);
+    color: var(--header-bg-color);
+    border-radius: 4px;
+}
+.portfolio-item{
+    background-color: var(--header-bg-color);
+}
+.portfolio-header{
+    color: var(--header-color);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.portfolio-paragraph{
+    color: var(--main-text-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}
