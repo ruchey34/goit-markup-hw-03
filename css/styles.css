@@ -132,6 +132,9 @@ ul{
     width: 696px;
     margin-right: auto;
     margin-left: auto;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-bottom: 30px;
 }
 .hero-btn{
     font-family: 'Roboto';
@@ -206,7 +209,7 @@ ul{
     line-height: 1;
     text-align: center;
     letter-spacing: 0.03em;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 .team{
     background-color: var(--team-bg-color);
@@ -239,8 +242,8 @@ ul{
     margin-bottom: 50px;
 }
 .team-box{
-    margin-top: 30px;
-    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .team-name{
     font-family: 'Roboto';
@@ -292,6 +295,12 @@ ul{
     line-height: 1.71;
     letter-spacing: 0.03em;
     margin-bottom: 9px;
+}
+.footer-link{
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 .portfolio{
     padding-top: 94px;
@@ -361,6 +370,7 @@ ul{
 }
 .portfolio-paragraph{
     color: var(--main-text-color);
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
